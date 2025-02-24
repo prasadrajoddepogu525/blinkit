@@ -1,0 +1,13 @@
+prefix=D:/Projects/blinkit/blinkitvenv/Library
+exec_prefix=D:/Projects/blinkit/blinkitvenv/Library
+libdir=D:/Projects/blinkit/blinkitvenv/Library/lib
+sharedlibdir=D:/Projects/blinkit/blinkitvenv/Library/lib
+includedir=D:/Projects/blinkit/blinkitvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
